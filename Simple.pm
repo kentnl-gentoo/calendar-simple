@@ -11,9 +11,12 @@
 #   This script is free software; you can redistribute it and/or
 #   modify it under the same terms as Perl itself.
 #
-# $Id: Simple.pm,v 1.3 2002/07/12 18:25:13 dave Exp $
+# $Id: Simple.pm,v 1.4 2002/07/13 14:07:55 dave Exp $
 #
 # $Log: Simple.pm,v $
+# Revision 1.4  2002/07/13 14:07:55  dave
+# Doc patches
+#
 # Revision 1.3  2002/07/12 18:25:13  dave
 # Added CVS tags
 #
@@ -29,7 +32,7 @@ require Exporter;
 @ISA = qw(Exporter);
 
 @EXPORT = qw(calendar);
-$VERSION = sprintf "%d.%02d", '$Revision: 1.3 $ ' =~ /(\d+)\.(\d+)/;
+$VERSION = sprintf "%d.%02d", '$Revision: 1.4 $ ' =~ /(\d+)\.(\d+)/;
 
 use Time::Local;
 use Carp;
@@ -140,7 +143,7 @@ A simple C<cal> replacement would therefore look like this:
     print "\n";
   }
 
-=head2 EXPORT\
+=head2 EXPORT
 
 C<calendar>
 
@@ -148,7 +151,7 @@ C<calendar>
 
 Dave Cross <dave@dave.org.uk>
 
-With thanks to Paul Mison <paulm@husk.org> for the start day patch.
+With thanks to Paul Mison <cpan@husk.org> for the start day patch.
 
 =head1 SEE ALSO
 
