@@ -11,9 +11,13 @@
 #   This script is free software; you can redistribute it and/or
 #   modify it under the same terms as Perl itself.
 #
-# $Id: Simple.pm,v 1.6 2002/07/30 21:46:15 dave Exp $
+# $Id: Simple.pm,v 1.7 2003/02/19 20:17:31 dave Exp $
 #
 # $Log: Simple.pm,v $
+# Revision 1.7  2003/02/19 20:17:31  dave
+# Ensure that all week arrays contain seven elements - previously the
+# last one ended on the last day of the month.
+#
 # Revision 1.6  2002/07/30 21:46:15  dave
 # Fixed the stupid error from the last fix.
 #
@@ -38,7 +42,7 @@ require Exporter;
 @ISA = qw(Exporter);
 
 @EXPORT = qw(calendar);
-$VERSION = sprintf "%d.%02d", '$Revision: 1.6 $ ' =~ /(\d+)\.(\d+)/;
+$VERSION = sprintf "%d.%02d", '$Revision: 1.7 $ ' =~ /(\d+)\.(\d+)/;
 
 use Time::Local;
 use Carp;
@@ -74,6 +78,8 @@ sub calendar {
   while (my @wk = splice @mon, 0, 7) {
     push @month, \@wk;
   }
+
+  $#{$month[-1]} = 6;
 
   return wantarray ? @month : \@month;
 }
@@ -162,6 +168,6 @@ With thanks to Paul Mison <cpan@husk.org> for the start day patch.
 
 =head1 SEE ALSO
 
-L<perl>, L<perldoc -f localtime>
+L<perl>, L<localtime>
 
 =cut
