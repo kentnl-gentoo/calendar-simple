@@ -11,9 +11,12 @@
 #   This script is free software; you can redistribute it and/or
 #   modify it under the same terms as Perl itself.
 #
-# $Id: Simple.pm,v 1.5 2002/07/30 19:40:02 dave Exp $
+# $Id: Simple.pm,v 1.6 2002/07/30 21:46:15 dave Exp $
 #
 # $Log: Simple.pm,v $
+# Revision 1.6  2002/07/30 21:46:15  dave
+# Fixed the stupid error from the last fix.
+#
 # Revision 1.5  2002/07/30 19:40:02  dave
 # Fixed undefined value errors
 #
@@ -35,7 +38,7 @@ require Exporter;
 @ISA = qw(Exporter);
 
 @EXPORT = qw(calendar);
-$VERSION = sprintf "%d.%02d", '$Revision: 1.5 $ ' =~ /(\d+)\.(\d+)/;
+$VERSION = sprintf "%d.%02d", '$Revision: 1.6 $ ' =~ /(\d+)\.(\d+)/;
 
 use Time::Local;
 use Carp;
@@ -49,7 +52,7 @@ sub calendar {
 
   $mon ||= ($now[0] + 1);
   $year ||= ($now[1] + 1900);
-  $start_date = 0 unless defined $start_date;
+  $start_day = 0 unless defined $start_day;
 
   croak "Year $year out of range" if $year < 1970;
   croak "Month $mon out of range" if ($mon  < 1 || $mon > 12);

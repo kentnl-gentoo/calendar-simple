@@ -1,5 +1,9 @@
 Revision history for Perl extension Calendar::Simple.
 
+2002-07-30 22:46  dave
+
+        * Simple.pm (1.6): Fixed the stupid error from the last fix.
+
 2002-07-30 20:40  dave
 
         * Simple.pm (1.5): Fixed undefined value errors
@@ -19,3 +23,4 @@ Revision history for Perl extension Calendar::Simple.
 2002-07-12 19:13  dave
 
         * Simple.pm (1.1): Initial revision
+
