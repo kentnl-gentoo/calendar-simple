@@ -6,3 +6,5 @@ COPYING
 Simple.pm
 t/test.t
 t/pod.t
+t/no_dt.t
+META.yml                                 Module meta-data (added by MakeMaker)

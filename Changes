@@ -1,19 +1,38 @@
-Revision history for Perl extension Calendar::Simple.
+2004-10-23 10:04  dave
 
-2003-05-14 22:16  dave
+	* Simple.pm (1.9), t/no_dt.t (1.1), t/pod.t (1.3), t/test.t (1.4):
+	  Improved test coverage
 
-	* Simple.pm (1.8): Added support for DateTime.pm (but only if it's
-	installed).
+2004-05-23 10:32  dave
 
-2003-02-19 20:17  dave
+	* README (1.2), README.xml (1.1): Replace README with README.xml
 
+2004-05-22 20:37  dave
+
+	* t/test.t (1.3): Added more tests to increase coverage
+
+2003-05-14 22:17  dave
+
+	* t/: pod.t (1.2), test.t (1.2): Added support for DateTime.pm (but
+	  only is it's installed).  Updated POD tests.
+	* Simple.pm (1.8): Added support for DateTime.pm (but only is it's
+	  installed).
+
+2003-02-19 20:22  dave
+
+	* Changes (1.3): Removed from CVS
+	* t/: pod.t (1.1), test.t (1.1): New test files
+	* Makefile.PL (1.2): Added Test::More and Test::Pod as prereqs.
+	* MANIFEST (1.3): Removed test.pl Added t/*
+	* test.pl (1.3): Moved tests to t/*
 	* Simple.pm (1.7): Ensure that all week arrays contain seven
-	elements - previously the last one ended on the last day of the
-	month.
+	  elements - previously the last one ended on the last day of the
+	  month.
 
 2002-07-30 22:46  dave
 
-	* Simple.pm (1.6): Fixed the stupid error from the last fix.
+	* Changes (1.2), Simple.pm (1.6): Fixed the stupid error from the
+	  last fix.
 
 2002-07-30 20:40  dave
 
@@ -23,19 +42,21 @@ Revision history for Perl extension Calendar::Simple.
 
 	* Simple.pm (1.4): Doc patches
 
+2002-07-12 19:27  dave
+
+	* COPYING (1.1), MANIFEST (1.2): Added COPYING
+
 2002-07-12 19:25  dave
 
 	* Simple.pm (1.3): Added CVS tags
-
-2002-07-12 19:23  dave
-
-	* Simple.pm (1.2): Added start day option
-
-2002-07-12 19:13  dave
-
-	* Simple.pm (1.1.1.1): Imported Version
-
-2002-07-12 19:13  dave
-
-	* Simple.pm (1.1): Initial revision
+	* Simple.pm (1.2), test.pl (1.2): Added start day option
+	* Calendar-Simple-0.01.tar (1.2), Makefile (1.2): Unnecessary
+	  Checkin
+	* Calendar-Simple-0.01.tar (1.1.1.1), Changes (1.1.1.1), MANIFEST
+	  (1.1.1.1), Makefile (1.1.1.1), Makefile.PL (1.1.1.1), README
+	  (1.1.1.1), Simple.pm (1.1.1.1), test.pl (1.1.1.1): Imported
+	  Version
+	* Calendar-Simple-0.01.tar (1.1), Changes (1.1), MANIFEST (1.1),
+	  Makefile (1.1), Makefile.PL (1.1), README (1.1), Simple.pm (1.1),
+	  test.pl (1.1): Initial revision
 
