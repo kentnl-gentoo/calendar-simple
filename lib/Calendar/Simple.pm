@@ -1,4 +1,4 @@
-# $Id: Simple.pm,v 1.10 2004/10/30 19:08:54 dave Exp $
+# $Id: Simple.pm,v 1.11 2004/12/04 11:46:19 dave Exp $
 
 =head1 NAME
 
@@ -26,7 +26,7 @@ require Exporter;
 @ISA = qw(Exporter);
 
 @EXPORT = qw(calendar);
-$VERSION = sprintf "%d.%02d", '$Revision: 1.10 $ ' =~ /(\d+)\.(\d+)/;
+$VERSION = sprintf "%d.%02d", '$Revision: 1.11 $ ' =~ /(\d+)\.(\d+)/;
 
 use Time::Local;
 use Carp;
@@ -171,12 +171,15 @@ modify it under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
-L<perl>, L<localtime>
+L<perl>, L<localtime>, L<DateTime>
 
 =cut
 
 #
 # $Log: Simple.pm,v $
+# Revision 1.11  2004/12/04 11:46:19  dave
+# Added 'see also' reference to DateTime
+#
 # Revision 1.10  2004/10/30 19:08:54  dave
 # Moved Simple.pm
 #

@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: Calendar-Simple
-version: 1.10
+version: 1.11
 author:
   - Dave Cross <dave@dave.org.uk>
   - |-
@@ -12,5 +12,5 @@ requires:
 provides:
   Calendar::Simple:
     file: lib/Calendar/Simple.pm
-    version: 1.10
+    version: 1.11
 generated_by: Module::Build version 0.25
