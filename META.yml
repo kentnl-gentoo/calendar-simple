@@ -1,12 +1,16 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         Calendar-Simple
-version:      1.09
-version_from: Simple.pm
-installdirs:  site
+--- #YAML:1.0
+name: Calendar-Simple
+version: 1.10
+author:
+  - Dave Cross <dave@dave.org.uk>
+  - |-
+    With thanks to Paul Mison <cpan@husk.org> for the start day patch.
+abstract: Perl extension to create simple calendars
+license: perl
 requires:
-    Test::More:                    0
-    Test::Pod:                     0
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.21
+  Test::More: 0
+provides:
+  Calendar::Simple:
+    file: lib/Calendar/Simple.pm
+    version: 1.10
+generated_by: Module::Build version 0.25

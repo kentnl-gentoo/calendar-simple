@@ -1,25 +1,33 @@
-Calendar/Simple version 0.01
-============================
 
-This is a very simple module that models a calendar month.
+Calendar::Simple
+----------------
+
+NAME
+
+  Calendar::Simple
+
+DESCRIPTION
+
+  This is a very simple module that models a calendar month.
 
 INSTALLATION
 
-To install this module type the following:
+  To install this module type the following:
 
-   perl Makefile.PL
-   make
-   make test
-   make install
+       perl Makefile.PL
+       make
+       make test
+       make install
+
 
 DEPENDENCIES
 
-This module has no external dependencies.
+  This module has no external dependencies.
 
 COPYRIGHT AND LICENCE
 
-This script is free software; you can redistribute it and/or
-modify it under the same terms as Perl itself.
+  This script is free software; you can redistribute it and/or modify it
+  under the same terms as Perl itself.
 
-Copyright (C) 2002 Dave Cross, All rights reserved.
+  Copyright (C) 2002 Dave Cross, All rights reserved.
 
