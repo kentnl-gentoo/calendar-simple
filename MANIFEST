@@ -10,3 +10,5 @@ t/pod.t
 t/no_dt.t
 t/pod_coverage.t
 META.yml                                 Module meta-data (added by MakeMaker)
+SIGNATURE
+SIGNATURE    Added here by Module::Build

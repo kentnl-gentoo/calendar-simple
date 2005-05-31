@@ -1,4 +1,4 @@
-# $Id: Simple.pm,v 1.12 2005/03/01 14:31:50 dave Exp $
+# $Id: Simple.pm,v 1.13 2005/05/31 18:52:01 dave Exp $
 
 =head1 NAME
 
@@ -26,7 +26,7 @@ require Exporter;
 @ISA = qw(Exporter);
 
 @EXPORT = qw(calendar);
-$VERSION = sprintf "%d.%02d", '$Revision: 1.12 $ ' =~ /(\d+)\.(\d+)/;
+$VERSION = sprintf "%d.%02d", '$Revision: 1.13 $ ' =~ /(\d+)\.(\d+)/;
 
 use Time::Local;
 use Carp;
@@ -158,7 +158,9 @@ C<calendar>
 
 =head1 AUTHOR
 
-Dave Cross <dave@dave.org.uk>
+Dave Cross E<lt>dave@dave.org.ukE<gt>
+
+=head1 ACKNOWLEDGEMENTS
 
 With thanks to Paul Mison <cpan@husk.org> for the start day patch.
 
@@ -177,6 +179,10 @@ L<perl>, L<localtime>, L<DateTime>
 
 #
 # $Log: Simple.pm,v $
+# Revision 1.13  2005/05/31 18:52:01  dave
+# Fixes to Build.PL.
+# Small changes to Pod.
+#
 # Revision 1.12  2005/03/01 14:31:50  dave
 # Adding pod coverage tests
 #

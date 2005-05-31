@@ -1,10 +1,8 @@
---- #YAML:1.0
+---
 name: Calendar-Simple
-version: 1.12
+version: 1.13
 author:
   - Dave Cross <dave@dave.org.uk>
-  - |-
-    With thanks to Paul Mison <cpan@husk.org> for the start day patch.
 abstract: Perl extension to create simple calendars
 license: perl
 requires:
@@ -12,5 +10,5 @@ requires:
 provides:
   Calendar::Simple:
     file: lib/Calendar/Simple.pm
-    version: 1.12
-generated_by: Module::Build version 0.2607
+    version: 1.13
+generated_by: Module::Build version 0.261
