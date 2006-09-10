@@ -1,14 +1,19 @@
 ---
 name: Calendar-Simple
-version: 1.13
+version: 1.14
 author:
-  - Dave Cross <dave@dave.org.uk>
+  - Dave Cross <dave@dave.org.uk
 abstract: Perl extension to create simple calendars
 license: perl
+resources:
+  license: http://dev.perl.org/licenses/
 requires:
   Test::More: 0
 provides:
   Calendar::Simple:
     file: lib/Calendar/Simple.pm
-    version: 1.13
-generated_by: Module::Build version 0.261
+    version: 1.14
+generated_by: Module::Build version 0.2805
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

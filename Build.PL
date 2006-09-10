@@ -1,7 +1,7 @@
 use Module::Build;
 
 my $build = Module::Build->new(
-                               dist_author => 'Dave Cross <dave@dave.org.uk>',
+                               dist_author => 'Dave Cross <dave@dave.org.uk',
                                module_name => 'Calendar::Simple',
                                license     => 'perl',
                                requires    => {
