@@ -1,3 +1,21 @@
+2006-10-15  dave
+
+	* [r36] bin, bin/pcal, lib/Calendar/Simple.pm: Added pcal to the
+	  distribution
+	* [r35] lib/Calendar/Simple.pm, t/date_span.t: Added date_span
+	  function (and tests)
+
+2006-10-11  dave
+
+	* [r34] lib/Calendar/Simple.pm: Removed excess parentheses
+	* [r33] t/no_dt.t, t/test.t: Slightly improved some tests
+
+2006-09-10  
+
+	* [r32] README.xml, lib/Calendar/Simple.pm: Changed copywrite to
+	  Magnum Solutions.
+	  Updated README to use Build.PL.
+
 2006-09-04  
 
 	* [r31] lib/Calendar/Simple.pm: Changed to manual version number

@@ -8,7 +8,9 @@ WriteMakefile
                            'Test::More' => '0'
                          },
           'INSTALLDIRS' => 'site',
-          'EXE_FILES' => [],
+          'EXE_FILES' => [
+                           '/home/dave/src/Calendar-Simple/bin/pcal'
+                         ],
           'PL_FILES' => {}
         )
 ;
