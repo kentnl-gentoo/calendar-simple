@@ -1,4 +1,4 @@
-# $Id: Simple.pm 37 2006-10-15 18:15:07Z dave $
+# $Id: Simple.pm 39 2006-10-16 19:41:18Z dave $
 
 =head1 NAME
 
@@ -32,7 +32,7 @@ require Exporter;
 
 @EXPORT = qw(calendar);
 @EXPORT_OK = qw(date_span);
-$VERSION = '1.16';
+$VERSION = '1.17';
 
 use Time::Local;
 use Carp;

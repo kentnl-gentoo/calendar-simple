@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.44.
+signed via the Module::Signature module, version 0.55.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,15 +14,15 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 54ea0253fb14eb4f56cbc8d46515d993d6f8ad70 Build.PL
+SHA1 fb6f00625da3d095d7f472f2df36472246cc09dd Build.PL
 SHA1 7834569ee0baaefd28e5fd5114a52b6979d99f4d COPYING
-SHA1 6aa83255f63a81d50455f66fcc69397051c88f20 Changes
+SHA1 5e33adb8b5d3b29035933dd270472bdfc21941a4 Changes
 SHA1 9169c821c4fcc79145aada7db19e7d338633c46c MANIFEST
-SHA1 ed02ef57c7a98a0fda5c7107e0bd604600aa997b META.yml
-SHA1 543afbbb03068d0a559651727a9b07586cfd5b6e Makefile.PL
-SHA1 173a7ec8f3a53ea802489542c6f314af4464c24b README
+SHA1 93b4fa97c385489648b0cb5d6a2f87afe9bd2ee0 META.yml
+SHA1 b87531062e37d28e67b2c1c54a95b24562d425f4 Makefile.PL
+SHA1 f468a58e1b445d4ff9c8f7a6abfadfee2dc8e927 README
 SHA1 2fc32b2fff88c61137dcbf3eea02819738918b8b bin/pcal
-SHA1 f33aa0c77a5adfc438efac0d8ff260c4357bda1f lib/Calendar/Simple.pm
+SHA1 6bed100845fd69eb0db44ff384bd057602f96354 lib/Calendar/Simple.pm
 SHA1 9d015a8aebc858d94f5721fc9fad66ac25ea940d t/date_span.t
 SHA1 879d86c37895757c937e2aff6b9d57ded967dc75 t/no_dt.t
 SHA1 e9c6a5881fc60173fbc8d479c1afd2ce3b43bef1 t/pod.t
@@ -31,7 +31,7 @@ SHA1 fd8a8e826e923cd76701f927193a915a71cdfb58 t/test.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.5 (GNU/Linux)
 
-iD8DBQFFMnorhlYrNpFq+8ERAvwGAJ48705VRDX40NHU65wAdUOTWdT1cgCdFB0F
-ElKSePC1o6pJxXqYZH6CUsI=
-=c3rT
+iD8DBQFFM+DfhlYrNpFq+8ERAoGpAKCa1ZF9M7noK31q+xzwMyVY/IEojwCcD9pn
+j+zzg60mq/SFnRLlLKVvdW8=
+=TOif
 -----END PGP SIGNATURE-----

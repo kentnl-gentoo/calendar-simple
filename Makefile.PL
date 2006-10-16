@@ -2,15 +2,15 @@
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
+          'PL_FILES' => {},
+          'INSTALLDIRS' => 'site',
           'NAME' => 'Calendar::Simple',
+          'EXE_FILES' => [
+                           'bin/pcal'
+                         ],
           'VERSION_FROM' => 'lib/Calendar/Simple.pm',
           'PREREQ_PM' => {
-                           'Test::More' => '0'
-                         },
-          'INSTALLDIRS' => 'site',
-          'EXE_FILES' => [
-                           '/home/dave/src/Calendar-Simple/bin/pcal'
-                         ],
-          'PL_FILES' => {}
+                           'Test::More' => 0
+                         }
         )
 ;
