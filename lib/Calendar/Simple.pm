@@ -1,4 +1,4 @@
-# $Id: Simple.pm 39 2006-10-16 19:41:18Z dave $
+# $Id: Simple.pm 44 2008-03-08 22:13:46Z dave $
 
 =head1 NAME
 
@@ -23,16 +23,17 @@ Calendar::Simple - Perl extension to create simple calendars
 
 package Calendar::Simple;
 
+use 5.006;
 use strict;
-use vars qw(@ISA @EXPORT @EXPORT_OK $VERSION);
+use warnings;
 
 require Exporter;
 
-@ISA = qw(Exporter);
+our @ISA = qw(Exporter);
 
-@EXPORT = qw(calendar);
-@EXPORT_OK = qw(date_span);
-$VERSION = '1.17';
+our @EXPORT = qw(calendar);
+our @EXPORT_OK = qw(date_span);
+our $VERSION = sprintf "%d", '$Revision: 44 $ ' =~ /(\d+)/;
 
 use Time::Local;
 use Carp;
@@ -172,7 +173,7 @@ sub date_span {
   }
 
   my $i = 0;
-  while ($cal[0][$i] < $begin) {
+  while (defined $cal[0][$i] and $cal[0][$i] < $begin) {
     $cal[0][$i++] = undef;
   }
 
@@ -181,7 +182,7 @@ sub date_span {
   }
 
   $i = -1;
-  while ($cal[-1][$i] > $end) {
+  while (defined $cal[-1][$i] and $cal[-1][$i] > $end) {
     $cal[-1][$i--] = undef;
   }
 
@@ -254,7 +255,9 @@ With thanks to Paul Mison <cpan@husk.org> for the start day patch.
 
 =head1 COPYRIGHT
 
-Copyright (C) 2002-2006, Magnum Solutions Ltd..  All Rights Reserved.
+Copyright (C) 2002-2008, Magnum Solutions Ltd.  All Rights Reserved.
+
+=head1 LICENSE
 
 This script is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.
