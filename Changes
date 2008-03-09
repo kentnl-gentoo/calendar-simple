@@ -1,5 +1,17 @@
+2008-03-09  dave
+
+	* [r50] Build.PL:
+	  Incremented release number.
+	* [r49] Build.PL:
+	  Added Licence.
+	  Slightly rejigged dependencies.
+
 2008-03-08  dave
 
+	* [r47] MANIFEST:
+	  Removed COPYING for MANIFEST.
+	* [r46] COPYING:
+	  Remove COPYING.
 	* [r45] t/no_dt.t:
 	  Skip 2100 test on 64-bit systems.
 	* [r44] lib/Calendar/Simple.pm:

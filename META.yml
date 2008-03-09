@@ -1,10 +1,12 @@
 ---
 name: Calendar-Simple
-version: 1.18
+version: 1.19
 author:
   - 'Dave Cross <dave@mag-sol.com>'
 abstract: Perl extension to create simple calendars
-license: unknown
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
 requires:
   Carp: 0
   Time::Local: 0
