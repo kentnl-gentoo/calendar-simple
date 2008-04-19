@@ -12,6 +12,7 @@ WriteMakefile
           'PREREQ_PM' => {
                            'Test::More' => 0,
                            'Time::Local' => 0,
+                           'Config' => 0,
                            'Carp' => 0
                          }
         )

@@ -2,12 +2,14 @@ use Module::Build;
 
 my $build = Module::Build->new(
 	license            => 'perl',
-	dist_version       => '1.19',
+	dist_version       => '1.20',
 	dist_author        => 'Dave Cross <dave@mag-sol.com>',
         module_name        => 'Calendar::Simple',
 	requires           => {
+                perl                  => '5.6.0',
 		Carp                  => 0,
 		'Time::Local'         => 0,
+                Config                => 0,
 	},
 	recommends         => {
 		DateTime              => 0,
