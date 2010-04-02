@@ -1,4 +1,4 @@
-# $Id: Simple.pm 44 2008-03-08 22:13:46Z dave $
+# $Id$
 
 =head1 NAME
 
@@ -27,13 +27,11 @@ use 5.006;
 use strict;
 use warnings;
 
-require Exporter;
-
-our @ISA = qw(Exporter);
+use base 'Exporter';
 
 our @EXPORT = qw(calendar);
 our @EXPORT_OK = qw(date_span);
-our $VERSION = sprintf "%d", '$Revision: 44 $ ' =~ /(\d+)/;
+our $VERSION = '1.21';
 
 use Time::Local;
 use Carp;

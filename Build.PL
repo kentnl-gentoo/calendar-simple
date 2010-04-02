@@ -2,7 +2,6 @@ use Module::Build;
 
 my $build = Module::Build->new(
 	license            => 'perl',
-	dist_version       => '1.20',
 	dist_author        => 'Dave Cross <dave@mag-sol.com>',
         module_name        => 'Calendar::Simple',
 	requires           => {
@@ -23,7 +22,6 @@ my $build = Module::Build->new(
 	},
         create_makefile_pl => 'traditional',
         script_files       => [ 'bin/pcal' ],
-        sign               => 1,
 );
 
 $build->create_build_script;
