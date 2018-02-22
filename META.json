@@ -39,7 +39,7 @@
    "provides" : {
       "Calendar::Simple" : {
          "file" : "lib/Calendar/Simple.pm",
-         "version" : "1.22"
+         "version" : "1.23"
       }
    },
    "release_status" : "stable",
@@ -51,6 +51,6 @@
          "url" : "https://github.com/davorg/calendar-simple"
       }
    },
-   "version" : "1.22",
+   "version" : "1.23",
    "x_serialization_backend" : "JSON::PP version 2.27300_01"
 }

@@ -1,5 +1,17 @@
 2018-02-22  Dave Cross <dave@dave.org.uk>
 
+	* lib/Calendar/Simple.pm: Bump version for another release. Thanks
+	  Mohammed Anwar
+
+2018-02-22  Mohammad S Anwar <mohammad.anwar@yahoo.com>
+
+	* Build.PL, MANIFEST, README.xml: - Removed +x bit from Build.PL as
+	  reported by CPANTS.
+
+2018-02-22  Dave Cross <dave@dave.org.uk>
+
+	* lib/Calendar/Simple.pm: Bump version to a number that that's not
+	  already on CPAN :-/
 	* Build.PL: Remove signing.
 	* lib/Calendar/Simple.pm: Bump version for release.
 	* lib/Calendar/Simple.pm: Change the arguments passed to timelocal()
